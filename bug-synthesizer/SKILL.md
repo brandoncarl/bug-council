@@ -23,11 +23,8 @@ Keep your thinking relatively short. You are working together with multiple agen
 **RECOMMENDATION**
 {how should we proceed}
 
-**NEXT_SKILL**
-bug-council
-
 ### NEXT STEPS
 
 1. If you are uncertain as to whether the issue has been resolved, you can optionally check with the user.
-2. If the issue has not been resolved, you must call the skill `bug-council` to decide and route the next step.
+2. If the issue has not been resolved, you must call the skill `bug-council` to start the next loop.
 3. If the issue is resolved, then you finish the task and complete.

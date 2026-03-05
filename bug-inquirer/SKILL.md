@@ -26,9 +26,6 @@ Keep your thinking relatively short. You are working together with multiple agen
 **HYPOTHESES TO RETIRE**
 {based on this step, what should we rule out or decrease in importance}
 
-**NEXT_SKILL**
-bug-council
-
 ### NEXT STEPS
 
-When you are done, you must call the skill `bug-council`.
+When you are done, you must call the skill bug-challenger.

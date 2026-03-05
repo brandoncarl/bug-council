@@ -18,9 +18,6 @@ Keep your thinking relatively short. You are working together with multiple agen
 **ALTERNATIVE HYPOTHESES**
 {don't just be contrarian, propose new ideas}
 
-**NEXT_SKILL**
-bug-council
-
 ### NEXT STEPS
 
-When you are done, you must call the skill `bug-council`.
+When you are done, you must call the skill `bug-synthesizer`.

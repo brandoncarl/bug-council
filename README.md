@@ -14,7 +14,7 @@ The core idea is that reasoning improves when diverse perspectives interact thro
 
 Bug Council runs a bounded, repeatable loop with distinct roles:
 
-1. `bug-contextualizer`: keeps a stable memory of the report, known facts, unknowns, and experiment history.
+1. `bug-council`: keeps a stable memory of the report, known facts, unknowns, and experiment history.
 2. `bug-inquirer`: proposes falsifiable hypotheses and high-value follow-up questions.
 3. `bug-challenger`: stress-tests assumptions and introduces alternative explanations.
 4. `bug-synthesizer`: integrates evidence, decides whether to continue, and recommends the next action.
@@ -31,7 +31,7 @@ The `bug-council` skill acts as controller and enforces stop criteria so the pro
 ## Repository Layout
 
 - `bug-council/SKILL.md`: controller workflow and loop policy.
-- `bug-contextualizer/SKILL.md`: evidence and context consolidation.
+- `bug-council/SKILL.md`: evidence and context consolidation.
 - `bug-inquirer/SKILL.md`: hypothesis and question generation.
 - `bug-challenger/SKILL.md`: critical review and alternative hypotheses.
 - `bug-synthesizer/SKILL.md`: synthesis and completion decision.
