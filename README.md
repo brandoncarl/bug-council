@@ -21,6 +21,19 @@ Bug Council runs a bounded, repeatable loop with distinct roles:
 
 The `bug-council` skill acts as controller and enforces stop criteria so the process does not drift indefinitely.
 
+## Best Format
+```
+> BUG
+  WHEN (actions taken)
+  THEN (effect)
+  EXPECTED (normal behavior)
+  NOTES:
+  - ... relevant things you know
+  - ... times of regression, etc.
+
+  Use the skill `bug-council` to debug this
+```
+
 ## Why This Structure
 
 - Cognitive diversity: different prompts catch different classes of reasoning errors.
@@ -30,8 +43,7 @@ The `bug-council` skill acts as controller and enforces stop criteria so the pro
 
 ## Repository Layout
 
-- `bug-council/SKILL.md`: controller workflow and loop policy.
-- `bug-council/SKILL.md`: evidence and context consolidation.
+- `bug-council/SKILL.md`: starting point of a loop with evidence and context consolidation.
 - `bug-inquirer/SKILL.md`: hypothesis and question generation.
 - `bug-challenger/SKILL.md`: critical review and alternative hypotheses.
 - `bug-synthesizer/SKILL.md`: synthesis and completion decision.
